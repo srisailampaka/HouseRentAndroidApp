@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <Spinner
+        android:id="@+id/cards_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/list_of_cards"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/etcard_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/group_top_black"
+        android:ems="10"
+        android:hint="Name on The Card"
+        android:paddingLeft="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etCard_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/group_top_black"
+        android:ems="10"
+        android:hint="Card Number"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etExpire"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_top_black"
+            android:ems="10"
+            android:hint="Expire Date"
+            android:paddingLeft="5dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etCvv"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_top_black"
+            android:ems="10"
+            android:hint="CVV"
+            android:paddingLeft="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

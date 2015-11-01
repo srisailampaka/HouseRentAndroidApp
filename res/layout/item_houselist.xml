@@ -2,22 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_marginTop="30dp" >
-    
-    <TextView 
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Joy Enclaves"
-        android:textSize="20sp"/>
-    
-    <TextView 
+        android:textSize="20sp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="102 Hudson St
 Hoboken, NJ 07030
 USA"
-        android:textSize="18sp"/>
-    
+        android:textSize="18sp" />
 
 </LinearLayout>

@@ -10,11 +10,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.houserent.activities.PaymentActivity" >
+        </activity>
+        <activity android:name="com.houserent.activities.LoginPageActivity" >
+        </activity>
+        <activity android:name="com.houserent.activities.MainActivity" >
+        </activity>
+        <activity android:name="com.houserent.activities.PaymentSuccessActivity" >
+        </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.houserent.activities.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,4 +5,40 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="list_of_houses">
+        <item>list of houses</item>
+        <item>Appartment</item>
+        <item>Villas</item>
+        <item>Semi Detached</item>
+        <item>Duplex</item>
+        <item>Indivudual</item>
+    </string-array>
+    <string-array name="types_of_houses">
+        <item>no of beds/baths</item>
+        <item>1Bed 1Bath</item>
+        <item>2Bed 1Bath</item>
+        <item>2Bed 2Bath</item>
+        <item>3Bed 1Bath</item>
+        <item>3Bed 2Bath</item>
+        <item>3Bed 3Bath</item>
+    </string-array>
+    <string-array name="list_of_range">
+        <item>range</item>
+        <item>$900-$1500</item>
+        <item>$1500-$2000</item>
+        <item>$2000-$above</item>
+    </string-array>
+    <string-array name="list_of_availability">
+        <item>duration</item>
+        <item>1 week</item>
+        <item>2 week</item>
+        <item>1 month</item>
+    </string-array>
+     <string-array name="list_of_cards">
+        <item>list of cards</item>
+        <item>HDCFC Credt Card</item>
+        <item>American Expres card</item>
+        <item>ICICI Credit card</item>
+    </string-array>
+
 </resources>

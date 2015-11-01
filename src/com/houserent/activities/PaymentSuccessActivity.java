@@ -9,26 +9,25 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
-	private Button selectButton;
-
+public class PaymentSuccessActivity extends Activity {
+private Button homeButton;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		selectButton = (Button) findViewById(R.id.select_button);
+		setContentView(R.layout.activity_payment_success);
+		homeButton = (Button) findViewById(R.id.home_button);
 
-		selectButton.setOnClickListener(new OnClickListener() {
+		homeButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(MainActivity.this,
-						PaymentActivity.class);
+				Intent intent = new Intent(PaymentSuccessActivity.this,MainActivity.class);
 				startActivity(intent);
 
 			}
 		});
 	}
 
+	
 }
